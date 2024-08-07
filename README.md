@@ -16,10 +16,11 @@ python -m venv venv
 # On Windows
 venv\Scripts\activate
 
-# On Unix or MacOS
+# On Unix or MacOS acitvate venv
+
 source venv/bin/activate
 
-```bash
+# Install Dependencies and run migrations
 pip install -r requirements.txt
 
 python manage.py makemigrations
